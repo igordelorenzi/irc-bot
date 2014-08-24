@@ -23,7 +23,7 @@ x:\> perl irc-bot
 
 1. How to evaluate whether the attack is being successful?
 
-R: Run `sudo tcpdump -i en0 -v udp`
+Ans: Run **sudo tcpdump -i en0 -v udp**
 
 # Contributing
 
