@@ -30,6 +30,7 @@ Please, feel free to send us pull requests.
 
 # Indirect collaboration
 
+* Thanks to XXxxImmortalxxXX of Go4Expert. Your [article](http://www.go4expert.com/articles/irc-bot-perl-t11831/) was fundamental to the start of this project.
 * Thanks to Artem Nosulchik of LINUX SCREW for [UDP Flood](http://www.linuxscrew.com/2008/04/10/tiny-perl-script-for-udp-flooding/) source.
 
 # Changelog
