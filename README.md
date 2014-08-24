@@ -1,10 +1,10 @@
 # IRC Bot for pentest study
 
-This project aims to provide a tiny example of how a IRC Bot can serve as an agent of DoS attacks.
+This project aims to provide a tiny example of how an IRC Bot can serve as an agent of DoS attacks.
 
 # Quick start
 
-Make sure that you have IO::Socket dependency and threads support at your Perl setup and run the following commands:
+Make sure that you have IO::Socket dependency and Threads support at your Perl setup and run the following commands:
 
 **On a Linux shell:**
 
