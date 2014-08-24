@@ -1,4 +1,4 @@
-# IRC Bot for pentest study purpose
+# IRC Bot for pentest study
 
 This project aims to provide a tiny example of how a IRC Bot can serve as an agent of DoS attacks.
 
