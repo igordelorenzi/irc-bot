@@ -28,6 +28,10 @@ A: Run `sudo tcpdump -i <interface> -v udp`
 
 Please, feel free to send us pull requests.
 
+# Indirect collaboration
+
+* Thanks to Artem Nosulchik of LINUX SCREW for [UDP Flood](http://www.linuxscrew.com/2008/04/10/tiny-perl-script-for-udp-flooding/) source.
+
 # Changelog
 
 None so far.
