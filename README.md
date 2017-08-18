@@ -1,6 +1,6 @@
-# IRC Bot for pentest study
+# IRC Bot for pentest learning
 
-This project aims to provide a tiny example of how an IRC Bot can serve as an agent of DoS attacks.
+This project aims to provide a tiny example of how an IRC Bot can serve as an agent of DoS attack.
 
 # Quick start
 
@@ -21,12 +21,12 @@ x:\> perl irc-bot
 
 # FAQ
 
-Q: How to evaluate whether the attack is being successful?<br/>
-A: Run `sudo tcpdump -i <interface> -v udp`
+Q: How do I evaluate whether the attack is happening successfully??<br/>
+A: At Linux, run `sudo tcpdump -i <interface> -v udp` and watch if the packets are being sent.
 
 # Contributing
 
-Please, feel free to send us pull requests.
+Please, feel free to send us pull requests or suggestions.
 
 # Indirect collaboration
 
