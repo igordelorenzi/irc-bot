@@ -22,7 +22,7 @@ x:\> perl irc-bot
 # FAQ
 
 Q: How do I evaluate whether the attack is happening successfully??<br/>
-A: At Linux, run `sudo tcpdump -i <interface> -v udp` and watch if the packets are being sent.
+A: At Bash shell, run `sudo tcpdump -i <interface> -v udp` and watch if the packets are being sent.
 
 # Contributing
 
